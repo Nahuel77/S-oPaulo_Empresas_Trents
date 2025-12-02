@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
+
+# Virtual environments
+spet/
+
+# node
+node_modules/
+service/SP-Empresas-Trends/.vscode/*
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data
+data/raw/
+data/processed/
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db

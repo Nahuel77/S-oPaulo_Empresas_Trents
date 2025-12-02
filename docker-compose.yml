@@ -1,0 +1,12 @@
+services:
+  backend:
+    build: ./app
+    container_name: empresas_backend
+    ports:
+      - "8000:8000"
+
+  frontend:
+    build: ./service/SP-Empresas-Trends
+    container_name: empresas_frontend
+    ports:
+      - "5173:3000"
