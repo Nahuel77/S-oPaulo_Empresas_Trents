@@ -1,4 +1,4 @@
-Proyecto: SP-Empresas-Trends
+📄 Proyecto: SP-Empresas-Trends
 
 SP-Empresas-Trends es una aplicación full-stack destinada a recolectar, procesar y analizar datos públicos sobre la apertura de nuevas empresas en la ciudad de São Paulo. El sistema combina:
 
