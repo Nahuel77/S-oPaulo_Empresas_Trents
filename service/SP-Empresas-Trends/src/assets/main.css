@@ -1,10 +1,14 @@
 /*@import './base.css';*/
 
 :root {
+  margin: 0;
+  padding: 0;
   /* Theme por defecto */
-  --color-bg: #ffffff;
-  --color-text: #111111;
-  --color-primary: #2a7ae4;
+  --color-bg: #fbfbfb;
+  --color-text: #252628;
+  --color-text-light: #fcfdfc;
+  --color-primary: #476893;
+  --color-secundary: #e0e8ef;
 }
 
 [data-theme="dark"] {
@@ -19,10 +23,15 @@
   --color-primary: #c97c5d;
 }
 
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
 #app {
   max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
+  margin: 0;
+  padding: 0;
   font-weight: normal;
 }
 
@@ -44,11 +53,12 @@ a,
   body {
     display: flex;
     place-items: center;
+    overflow-x: hidden;
   }
 
   #app {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    padding: 0 2rem;
+    display: flex;
+    place-items: center;
+    padding: 0;
   }
 }
